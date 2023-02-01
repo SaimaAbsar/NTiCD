@@ -1,0 +1,67 @@
+2023-01-31 19:07:11,514 INFO    MainThread:741119 [internal.py:wandb_internal():90] W&B internal server running at pid: 741119, started at: 2023-01-31 19:07:11.514349
+2023-01-31 19:07:11,518 INFO    WriterThread:741119 [datastore.py:open_for_write():75] open: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/run-1e783xrh.wandb
+2023-01-31 19:07:11,519 DEBUG   SenderThread:741119 [sender.py:send():232] send: header
+2023-01-31 19:07:11,520 DEBUG   SenderThread:741119 [sender.py:send():232] send: run
+2023-01-31 19:07:11,683 DEBUG   HandlerThread:741119 [handler.py:handle_request():141] handle_request: check_version
+2023-01-31 19:07:11,690 INFO    SenderThread:741119 [dir_watcher.py:__init__():197] watching files in: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files
+2023-01-31 19:07:11,690 INFO    SenderThread:741119 [sender.py:_start_run_threads():811] run started: 1e783xrh with start time 1675213631
+2023-01-31 19:07:11,690 DEBUG   SenderThread:741119 [sender.py:send():232] send: summary
+2023-01-31 19:07:11,690 INFO    SenderThread:741119 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-01-31 19:07:11,691 DEBUG   SenderThread:741119 [sender.py:send_request():246] send_request: check_version
+2023-01-31 19:07:11,787 DEBUG   HandlerThread:741119 [handler.py:handle_request():141] handle_request: run_start
+2023-01-31 19:07:12,691 INFO    Thread-7  :741119 [dir_watcher.py:_on_file_created():244] file/dir created: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/wandb-summary.json
+2023-01-31 19:07:13,028 DEBUG   HandlerThread:741119 [meta.py:__init__():35] meta init
+2023-01-31 19:07:13,028 DEBUG   HandlerThread:741119 [meta.py:__init__():49] meta init done
+2023-01-31 19:07:13,028 DEBUG   HandlerThread:741119 [meta.py:probe():209] probe
+2023-01-31 19:07:13,033 DEBUG   HandlerThread:741119 [git.py:repo():29] git repository is invalid
+2023-01-31 19:07:13,033 DEBUG   HandlerThread:741119 [meta.py:_save_pip():53] save pip
+2023-01-31 19:07:13,034 DEBUG   HandlerThread:741119 [meta.py:_save_pip():67] save pip done
+2023-01-31 19:07:13,034 DEBUG   HandlerThread:741119 [meta.py:_save_conda():74] save conda
+2023-01-31 19:07:13,696 INFO    Thread-7  :741119 [dir_watcher.py:_on_file_created():244] file/dir created: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/requirements.txt
+2023-01-31 19:07:13,697 INFO    Thread-7  :741119 [dir_watcher.py:_on_file_created():244] file/dir created: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/conda-environment.yaml
+2023-01-31 19:07:15,635 DEBUG   HandlerThread:741119 [meta.py:_save_conda():84] save conda done
+2023-01-31 19:07:15,635 DEBUG   HandlerThread:741119 [meta.py:probe():247] probe done
+2023-01-31 19:07:15,640 DEBUG   SenderThread:741119 [sender.py:send():232] send: files
+2023-01-31 19:07:15,640 INFO    SenderThread:741119 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-01-31 19:07:15,649 DEBUG   HandlerThread:741119 [handler.py:handle_request():141] handle_request: stop_status
+2023-01-31 19:07:15,649 DEBUG   SenderThread:741119 [sender.py:send_request():246] send_request: stop_status
+2023-01-31 19:07:15,697 INFO    Thread-7  :741119 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/conda-environment.yaml
+2023-01-31 19:07:15,698 INFO    Thread-7  :741119 [dir_watcher.py:_on_file_created():244] file/dir created: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/output.log
+2023-01-31 19:07:15,698 INFO    Thread-7  :741119 [dir_watcher.py:_on_file_created():244] file/dir created: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/wandb-metadata.json
+2023-01-31 19:07:15,739 DEBUG   SenderThread:741119 [sender.py:send():232] send: telemetry
+2023-01-31 19:07:15,739 DEBUG   SenderThread:741119 [sender.py:send():232] send: telemetry
+2023-01-31 19:07:16,001 INFO    Thread-11 :741119 [upload_job.py:push():132] Uploaded file /tmp/tmp0ufkf5r6wandb/3j1u47a0-wandb-metadata.json
+2023-01-31 19:07:17,567 DEBUG   HandlerThread:741119 [handler.py:handle_request():141] handle_request: partial_history
+2023-01-31 19:07:17,568 DEBUG   SenderThread:741119 [sender.py:send():232] send: history
+2023-01-31 19:07:17,573 DEBUG   SenderThread:741119 [sender.py:send():232] send: summary
+2023-01-31 19:07:17,576 INFO    SenderThread:741119 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-01-31 19:07:17,698 INFO    Thread-7  :741119 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/wandb-summary.json
+2023-01-31 19:07:19,189 DEBUG   HandlerThread:741119 [handler.py:handle_request():141] handle_request: partial_history
+2023-01-31 19:07:19,190 DEBUG   SenderThread:741119 [sender.py:send():232] send: history
+2023-01-31 19:07:19,191 DEBUG   SenderThread:741119 [sender.py:send():232] send: summary
+2023-01-31 19:07:19,191 INFO    SenderThread:741119 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-01-31 19:07:19,487 WARNING MainThread:741119 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-01-31 19:07:19,489 DEBUG   SenderThread:741119 [sender.py:send():232] send: telemetry
+2023-01-31 19:07:19,699 INFO    Thread-7  :741119 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/output.log
+2023-01-31 19:07:19,700 INFO    Thread-7  :741119 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/wandb-summary.json
+2023-01-31 19:07:19,882 WARNING MainThread:741119 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-01-31 19:07:19,882 ERROR   MainThread:741119 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-01-31 19:07:20,661 INFO    SenderThread:741119 [sender.py:finish():1110] shutting down sender
+2023-01-31 19:07:20,662 INFO    WriterThread:741119 [datastore.py:close():279] close: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/run-1e783xrh.wandb
+2023-01-31 19:07:20,662 INFO    SenderThread:741119 [dir_watcher.py:finish():312] shutting down directory watcher
+2023-01-31 19:07:20,662 INFO    HandlerThread:741119 [handler.py:finish():806] shutting down handler
+2023-01-31 19:07:20,701 INFO    SenderThread:741119 [dir_watcher.py:finish():342] scan: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files
+2023-01-31 19:07:20,701 INFO    SenderThread:741119 [dir_watcher.py:finish():356] scan save: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/wandb-metadata.json wandb-metadata.json
+2023-01-31 19:07:20,701 INFO    SenderThread:741119 [dir_watcher.py:finish():356] scan save: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/requirements.txt requirements.txt
+2023-01-31 19:07:20,701 INFO    SenderThread:741119 [dir_watcher.py:finish():356] scan save: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/conda-environment.yaml conda-environment.yaml
+2023-01-31 19:07:20,702 INFO    SenderThread:741119 [dir_watcher.py:finish():356] scan save: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/config.yaml config.yaml
+2023-01-31 19:07:20,702 INFO    SenderThread:741119 [dir_watcher.py:finish():356] scan save: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/wandb-summary.json wandb-summary.json
+2023-01-31 19:07:20,702 INFO    SenderThread:741119 [dir_watcher.py:finish():356] scan save: /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/output.log output.log
+2023-01-31 19:07:20,702 INFO    SenderThread:741119 [file_pusher.py:finish():145] shutting down file pusher
+2023-01-31 19:07:20,703 INFO    SenderThread:741119 [file_pusher.py:join():150] waiting for file pusher
+2023-01-31 19:07:21,091 INFO    Thread-13 :741119 [upload_job.py:push():132] Uploaded file /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/conda-environment.yaml
+2023-01-31 19:07:21,093 INFO    Thread-12 :741119 [upload_job.py:push():132] Uploaded file /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/requirements.txt
+2023-01-31 19:07:21,109 INFO    Thread-14 :741119 [upload_job.py:push():132] Uploaded file /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/config.yaml
+2023-01-31 19:07:21,122 INFO    Thread-15 :741119 [upload_job.py:push():132] Uploaded file /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/wandb-summary.json
+2023-01-31 19:07:21,127 INFO    Thread-16 :741119 [upload_job.py:push():132] Uploaded file /home/sa059/IJCNN23/singleseq/wandb/run-20230131_190710-1e783xrh/files/output.log
+2023-01-31 19:07:21,785 INFO    MainThread:741119 [internal.py:handle_exit():80] Internal process exited
