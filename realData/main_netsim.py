@@ -10,7 +10,7 @@ torch.cuda.empty_cache()
 import trainer_combined as trainer
 torch.manual_seed(1230)
 np.random.seed(1230)
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from sklearn.metrics import precision_score, recall_score, f1_score
 import time
 
 # torch.cuda.is_available() checks and returns a Boolean True if a GPU is available, else it'll return False

@@ -14,7 +14,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader 
-import wandb
+#import wandb
 torch.autograd.set_detect_anomaly(True)
 
 # torch.cuda.is_available() checks and returns a Boolean True if a GPU is available, else it'll return False
@@ -95,8 +95,8 @@ def train(path, is_saved, regularization_param, epochs):
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
     # keep log using wandb
-    wandb.init(project='New Simultaneous Training')
-    wandb.watch(model, log='all')
+    #wandb.init(project='New Simultaneous Training')
+    #wandb.watch(model, log='all')
 
     criterion = torch.nn.MSELoss()
     L = []
@@ -137,7 +137,7 @@ def train(path, is_saved, regularization_param, epochs):
             print('Epoch: {} .............'.format(epoch), end=' ')
             print("Loss: {:.4f}".format(avg_loss))
         L.append(avg_loss)
-        wandb.log({'Training Loss': avg_loss})
+        #wandb.log({'Training Loss': avg_loss})
 
     plt.plot(L)
     #plt.yscale("log")
