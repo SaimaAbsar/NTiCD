@@ -1,5 +1,7 @@
 # NTiCD
-This repository is the implementation of the paper: "Neural Time-Invariant Causal Discovery from Time Series Data".
+This repository is the implementation of the paper: 
+Saima Absar, Yongkai Wu, and Lu Zhang. “Neural Time-invariant Causal Discovery from Time Series Data." International Joint Conference on Neural Networks. Gold Coast, Queensland, Australia. 2023.
+
 ### Overview
 * ./singleseq: contains the codes for experiments with single-sequence synthetic data, including a sample data and data-generation code 
 * ./multiseq: contains the codes for experiments with multi-sequence synthetic data, including sample data and data-generation code
