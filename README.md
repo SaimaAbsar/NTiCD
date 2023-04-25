@@ -1,5 +1,5 @@
 # NTiCD
-This repository is the implementation of "Neural Time-Invariant Causal Discovery from Time Series Data".
+This repository is the implementation of the paper: "Neural Time-Invariant Causal Discovery from Time Series Data".
 ### Overview
 * ./singleseq: contains the codes for experiments with single-sequence synthetic data, including a sample data and data-generation code 
 * ./multiseq: contains the codes for experiments with multi-sequence synthetic data, including sample data and data-generation code
